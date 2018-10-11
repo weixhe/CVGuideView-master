@@ -16,6 +16,7 @@
 		4587917E216EF74C00021BE8 /* CVGuideViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4587917D216EF74C00021BE8 /* CVGuideViewUITests.swift */; };
 		4587918D216EF79300021BE8 /* CVParallaxGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4587918C216EF79300021BE8 /* CVParallaxGuideView.swift */; };
 		4587918F216F177A00021BE8 /* nyc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4587918E216F177A00021BE8 /* nyc.jpg */; };
+		45879191216F4AFD00021BE8 /* ParallaxGuide.gif in Resources */ = {isa = PBXBuildFile; fileRef = 45879190216F4AFD00021BE8 /* ParallaxGuide.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4587917F216EF74C00021BE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4587918C216EF79300021BE8 /* CVParallaxGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVParallaxGuideView.swift; sourceTree = "<group>"; };
 		4587918E216F177A00021BE8 /* nyc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyc.jpg; sourceTree = "<group>"; };
+		45879190216F4AFD00021BE8 /* ParallaxGuide.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ParallaxGuide.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				4587915D216EF74A00021BE8 /* AppDelegate.swift */,
 				4587915F216EF74A00021BE8 /* ViewController.swift */,
+				45879190216F4AFD00021BE8 /* ParallaxGuide.gif */,
 				4587918E216F177A00021BE8 /* nyc.jpg */,
 				4587918B216EF76400021BE8 /* ParallaxGuide */,
 				45879161216EF74A00021BE8 /* Main.storyboard */,
@@ -247,6 +250,7 @@
 				45879168216EF74C00021BE8 /* LaunchScreen.storyboard in Resources */,
 				45879165216EF74C00021BE8 /* Assets.xcassets in Resources */,
 				45879163216EF74A00021BE8 /* Main.storyboard in Resources */,
+				45879191216F4AFD00021BE8 /* ParallaxGuide.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

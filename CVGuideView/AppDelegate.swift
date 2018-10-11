@@ -52,7 +52,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let srcImage = UIImage(named: "nyc.jpg")!
 //        let flipImageOrientation = srcImage.imageOrientation.rawValue + 3
 //        let flipImage =  UIImage(cgImage:srcImage.cgImage!, scale:srcImage.scale, orientation: UIImage.Orientation(rawValue: flipImageOrientation)!)
-        CVParallaxGuideView(titles: titles, contents: contents, backgroundImage: srcImage).show(in: self.window!, scrollDirection: .horizontal)
+        
+        
+        let guideView = CVParallaxGuideView(titles: titles, contents: contents, backgroundImage: srcImage)
+        guideView.show(in: self.window!, scrollDirection: .horizontal)
 
         return true
     }
